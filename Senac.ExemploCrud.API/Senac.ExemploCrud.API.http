@@ -1,0 +1,6 @@
+@Senac.ExemploCrud.API_HostAddress = http://localhost:5045
+
+GET {{Senac.ExemploCrud.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

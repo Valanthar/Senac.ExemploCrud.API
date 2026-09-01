@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Senac.ExemploCrud.API/Senac.ExemploCrud.API.csproj" />
+  <Project Path="Senac.ExemploCrud.Application/Senac.ExemploCrud.Application.csproj" Id="a570c1df-4ab6-4a59-8b74-d93dc23f8908" />
+  <Project Path="Senac.ExemploCrud.Domain/Senac.ExemploCrud.Domain.csproj" />
+</Solution>
