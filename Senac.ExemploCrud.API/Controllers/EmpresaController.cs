@@ -5,16 +5,17 @@ using Senac.ExemploCrud.Application;
 namespace Senac.ExemploCrud.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-    public class PessoaController
+    [Route("api/[Controller]")]
+    public class EmpresaController
     {
         [HttpPost]
-        public bool CriarPessoa([FromBody] CriaPessoaDto dto)
+        public bool CriarEmpresa([FromBody] CriaEmpresaDto dto)
         {
-
-            Pessoa obj = new Pessoa(dto.Nome,dto.CPF,dto.DataNascimento,dto.Email, dto.Telefone);
+            Empresa obj = new Empresa(dto.RazaoSocial, dto.CNPJ, dto.Email, dto.Telefone);
             return true;
         }
+
     }
 }
-    
+
+        
